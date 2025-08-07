@@ -20,48 +20,41 @@
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
-<<<<<<< HEAD
-  --default-color: #4e4e4e; /* Default color used for the majority of the text content across the entire website */
-  --heading-color: #0a090f; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #0078ff; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
-  --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
-=======
   --default-color: #0a090f; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #0a090f; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #0078ff; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
-  --surface-color: #05550f; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
->>>>>>> deployment
-  --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
+  --accent-color: #0b0c0c; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --surface-color: #07630e; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
+  --contrast-color: #07630e; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
   --nav-color: #ffffff;  /* The default color of the main navmenu links */
-  --nav-hover-color: #ffffff; /* Applied to main navmenu links when they are hovered over or active */
-  --nav-mobile-background-color: #ffffff; /* Used as the background color for mobile navigation menu */
-  --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
+  --nav-hover-color: #07630e; /* Applied to main navmenu links when they are hovered over or active */
+  --nav-mobile-background-color: #07630e; /* Used as the background color for mobile navigation menu */
+  --nav-dropdown-background-color: #07630e; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
   --nav-dropdown-color: #212529; /* Used for navigation links of the dropdown items in the navigation menu. */
-  --nav-dropdown-hover-color: #0078ff; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
+  --nav-dropdown-hover-color: #07630e; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
 }
 
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
 
 .light-background {
-  --background-color: #f9f9f9;
-  --surface-color: #ffffff;
+  --background-color: #07630e;
+  --surface-color: #07630e;
 }
 
 .dark-background {
-  --background-color: #060606;
-  --default-color: #ffffff;
-  --heading-color: #ffffff;
+  --background-color: #323335;
+  --default-color: #07630e;
+  --heading-color: #07630e;
   --surface-color: #252525;
   --contrast-color: #ffffff;
 }
 
 .accent-background {
-  --background-color: #0078ff;
-  --default-color: #ffffff;
+  --background-color: #07630e;
+  --default-color: #010a02;
   --heading-color: #ffffff;
   --accent-color: #ffffff;
   --surface-color: #3393ff;
@@ -118,11 +111,7 @@ h6 {
 .php-email-form .sent-message {
   display: none;
   color: #ffffff;
-<<<<<<< HEAD
   background: #059652;
-=======
-  background: #f5f7f6;
->>>>>>> deployment
   text-align: center;
   padding: 15px;
   margin-bottom: 24px;
